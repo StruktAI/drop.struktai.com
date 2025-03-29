@@ -13,40 +13,44 @@
       font-family: 'DM Mono', monospace;
       margin: 0;
       padding: 0;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      text-align: center;
-      overflow: hidden;
+      align-items: center;
     }
-    .terminal {
-      background: #111;
-      border: 2px solid #0ff;
-      padding: 30px;
-      max-width: 700px;
-      box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
-    }
-    .glow {
-      animation: glow 1.5s ease-in-out infinite alternate;
-    }
-    @keyframes glow {
-      from {
-        text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-      }
-      to {
-        text-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
-      }
+    .noise {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('../assets/noise.gif');
+      opacity: 0.03;
+      z-index: 0;
+      pointer-events: none;
     }
     .sigil {
-      position: absolute;
-      top: 20px;
-      left: 20px;
+      margin-top: 40px;
+      z-index: 1;
     }
     .sigil img {
-      width: 60px;
+      width: 100px;
       filter: invert(100%) brightness(150%);
+    }
+    .terminal {
+      margin-top: 30px;
+      padding: 20px 40px;
+      border: 2px solid #0ff;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+      background: #000;
+      font-size: 1rem;
+      text-align: left;
+      max-width: 700px;
+      z-index: 1;
+    }
+    .terminal p {
+      margin: 8px 0;
     }
     .button {
       display: inline-block;
@@ -63,16 +67,19 @@
       background-color: #00cccc;
     }
     footer {
-      position: absolute;
-      bottom: 20px;
+      margin-top: 60px;
       font-size: 0.85rem;
       color: #0ff;
     }
   </style>
 </head>
 <body>
+  <div class="noise"></div>
+  <div class="sigil">
+    <img src="../assets/sigil.svg" alt="StruktAI">
+  </div>
   <div class="terminal">
-    <p class="glow">> INITIALIZING SUB-NODE: DROP.STRUKTAI</p>
+    <p>> INITIALIZING SUB-NODE: DROP.STRUKTAI</p>
     <p>> NODE TYPE: OPS ISSUE TERMINAL</p>
     <p>> STATUS: ONLINE // CONNECTION SECURE</p>
     <br>
@@ -81,11 +88,10 @@
     <p>> CLASS: LOW-VIS OPS GEAR</p>
     <p>> FUNCTION: PRESENCE / IDENTITY CONTAINMENT</p>
     <p><em>> You are not browsing. You are interfacing.</em></p>
-    <br>
-    <a href="https://struktai.bigcartel.com/" class="button">ENGAGE OPS LINK</a>
   </div>
+  <a href="https://struktai.bigcartel.com/product/drp-001-hood" class="button">ENGAGE OPS LINK</a>
   <footer>
-    <span>© 2025 STRUKTAI</span> — Structured for what’s next. <a href="LICENSE.md" target="_blank" rel="noopener noreferrer">License</a>
+    © 2025 STRUKTAI — Deployment Node DRP-001. Structured for what's next. <a href="/LICENSE.md" style="color:#0ff">License</a>
   </footer>
 </body>
 </html>
