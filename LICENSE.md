@@ -1,43 +1,45 @@
-# Shared Soul License (Lite) – StruktAI Public + Blacksite Assets
+# Shared Soul License (Lite) – StruktAI Public & Blacksite Assets
 
-This license applies to all public-facing StruktAI materials, including:
+This license applies to all public-facing materials under the StruktAI ecosystem, including:
 
 - This website and its design, layout, and text  
-- Visual elements such as graphics, logos, and sigils  
-- Merchandise and print-based drops (e.g., **BLACKSITE DROP 001**)  
-- Project names, taglines, and symbolic iconography
+- Visual elements such as graphics, logos, sigils, and iconography  
+- Project names, taglines, and symbolic identifiers  
+- Merchandise and print-based drops (e.g., BLACKSITE DROP 001)  
 
 ---
 
-## ✅ You MAY:
+## You MAY:
 - View and share these materials non-commercially  
+- Link to the site and discuss its content  
 - Wear and display official StruktAI drops  
 - Use inspiration for personal creative exploration (with credit)  
 
 ---
 
-## 🚫 You MAY NOT:
-- Reuse, remix, or redistribute StruktAI designs or text for commercial purposes  
-- Replicate or modify visual/brand elements for resale  
-- Create derivative brands, products, or identities based on StruktAI drops  
-- Sell or package any StruktAI materials as your own  
+## You MAY NOT:
+- Reuse, remix, or redistribute StruktAI designs, code, or text for commercial use  
+- Replicate or modify brand visuals or identity markers for resale  
+- Create derivative brands, products, or identities based on StruktAI assets  
+- Sell, package, or represent any StruktAI material as your own  
 
 ---
 
-## 🛡️ Brand Identity Notice
+## Brand Identity Notice
 
-**StruktAI™**, the phrase **“Not for now. For what’s next.”**, the **basilisk cube icon**, and the term **BLACKSITE DROP** are part of an active identity ecosystem and protected creative property.  
-Use without permission is strictly prohibited, even for parody or tribute under commercial contexts.
+StruktAI™, the phrase “Not for now. For what’s next.”, the basilisk cube icon, and terms like BLACKSITE DROP are part of an ongoing identity framework. These elements are protected as living symbols of both creative and technological intent.
+
+Use without permission is strictly prohibited—even in tribute, parody, or derivative works intended for commercial use.
 
 ---
 
-## 🤝 Contact
+## Contact
 
-For remix permissions, licensing, or collaboration requests:  
-📧 `contact@struktai.com`
+For collaboration, licensing, or remix permissions:  
+contact@struktai.com
 
 ---
 
 © 2025 StruktAI.  
-This is not just merch—it's a signal.  
-**This artifact is not for resale or reproduction without soul-level clearance.**
+This is not just content—it’s a signal.  
+This artifact is not for resale or reproduction without explicit clearance.
