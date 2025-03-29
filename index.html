@@ -4,40 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>STRUKT.AI // BLACKSITE DROP 001</title>
+  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=DM+Mono&display=swap" />
   <style>
     body {
       background-color: #000;
       color: #0ff;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'DM Mono', monospace;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      margin: 0;
-      padding: 20px;
       text-align: center;
+      overflow: hidden;
     }
     .terminal {
-      max-width: 700px;
-      background-color: #111;
+      background: #111;
       border: 2px solid #0ff;
       padding: 30px;
-      box-shadow: 0 0 15px #0ff88f;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 10px 25px;
-      background-color: #0ff;
-      color: #000;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 4px;
-      transition: background 0.3s;
-    }
-    .button:hover {
-      background-color: #00cccc;
+      max-width: 700px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
     }
     .glow {
       animation: glow 1.5s ease-in-out infinite alternate;
@@ -50,19 +39,53 @@
         text-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
       }
     }
+    .sigil {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    .sigil img {
+      width: 60px;
+      filter: invert(100%) brightness(150%);
+    }
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      background-color: #0ff;
+      color: #000;
+      font-weight: bold;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background-color: #00cccc;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.85rem;
+      color: #0ff;
+    }
   </style>
 </head>
 <body>
   <div class="terminal">
-    <h2 class="glow">> BLACKSITE DROP 001 // ACCESS GRANTED</h2>
-    <p><strong>NODE ID:</strong> DRP-001</p>
-    <p><strong>CLASS:</strong> BLACKSITE OPS UNIT</p>
-    <p><strong>STATUS:</strong> ACTIVE</p>
-    <p><strong>FUNCTION:</strong> LOW-VIS IDENTITY MODULE</p>
-    <p><strong>ISSUED:</strong> 04X-23-01</p>
-    <p><em>You are no longer observing the future — you are wearing it.</em></p>
-
-    <a href="https://struktai.bigcartel.com" class="button">ENGAGE OPS LINK</a>
+    <p class="glow">> INITIALIZING SUB-NODE: DROP.STRUKTAI</p>
+    <p>> NODE TYPE: OPS ISSUE TERMINAL</p>
+    <p>> STATUS: ONLINE // CONNECTION SECURE</p>
+    <br>
+    <p>> CURRENT DEPLOYMENT: DRP-001</p>
+    <p>> UNIT ID: 04X-23-01</p>
+    <p>> CLASS: LOW-VIS OPS GEAR</p>
+    <p>> FUNCTION: PRESENCE / IDENTITY CONTAINMENT</p>
+    <p><em>> You are not browsing. You are interfacing.</em></p>
+    <br>
+    <a href="https://struktai.bigcartel.com/" class="button">ENGAGE OPS LINK</a>
   </div>
+  <footer>
+    © 2025 STRUKTAI — Deployment Node DRP-001. Structured for what's next.
+  </footer>
 </body>
 </html>
